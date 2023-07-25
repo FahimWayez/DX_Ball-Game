@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.gameName {
+  text-align: center;
+}
+
+.mainScreen
+{
+    top: 50px;
+    width: 900px;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    border: solid black;
+}
+.brick
+{
+    width: 75px;
+    height: 20px;
+    background-color: darkslategray;
+    position: absolute;
+}
+
+.ball 
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: darkslategray;
+    position: absolute;
+    bottom: 10px;
+    left: 390px;
+}
+
+.stick
+{
+    width: 100px;
+    height: 10px;
+    background-color: darkslategray;
+    position: absolute;
+    bottom: 0px;
+    left: 400px;
+}
